@@ -1,0 +1,69 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+description: |
+  This project involves developing a responsive static website for the '3FLEX CIRCUIT' pickleball league using Next.js and Chakra UI. The website aims to be visually engaging and accessible, incorporating modern design elements and structured content sections that adapt seamlessly across devices.
+
+rules:
+  - Use Framer Motion for all animations, including scroll-triggered behavior (prefer useScroll, useInView, or motion components).
+  - Do not use manual window event listeners for scroll or resize unless explicitly requested.
+  - Use Chakra UI components consistently and respect Chakra's layout, spacing, and responsive design conventions.
+  - Prefer motion-enhanced Chakra components (e.g., motion(Box)) over vanilla DOM manipulation or inline transitions.
+  - All animation logic should be centralized using Framer-compatible techniques for consistency.
+  - Ensure hero section overlays (like text cards) use subtle glassmorphism styles with appropriate blur, transparency, and border treatments to enhance readability without overwhelming the background media.
+  - Maintain visual alignment and consistent scaling behavior across all navbar elements during scroll-based transitions.
+  - Avoid layout shifts or element clipping during scroll-based interactions, especially on mobile.
+  - Add a prominently featured "Player Portal" button in the navbar and hero section. This button should be styled consistently with other primary actions (like "Contact Us") and should visually communicate that users can log in or access their personalized data in the future.
+
+guardrails:
+  - Only modify files directly related to the prompt’s request.
+  - Do not refactor, rename, or restructure components unless explicitly asked to.
+  - Maintain consistent use of Chakra UI and Framer Motion for all new components or layout adjustments.
+  - Preserve existing functionality unless the prompt specifically asks to change it.
+
+design_elements:
+  - Glassmorphism (use translucent backgrounds with blur and soft borders to create a layered, frosted-glass effect)
+  - Scrolling Animations / Parallax (sections or images should subtly animate or shift as the user scrolls to create depth and motion)
+  - Microinteractions (hover effects, button tap feedback, and subtle transitions that enhance interactivity)
+  - Dynamic Gradients (use animated or shifting gradients for backgrounds or accents to add visual energy)
+  - Cards with Depth (elevate cards using shadows, transforms, or borders to suggest physical space and focus)
+  - Hero Section with Motion (animate text and overlay content using Framer Motion; support background video as a future enhancement)
+  - Dark Mode Toggle (smoothly transition the site between light and dark themes with a toggle UI element)
+
+frameworks:
+  - Next.js
+  - Chakra UI
+
+content_sections:
+  - title: Why You'll Love It
+    description: Highlights the unique benefits and features of the 3FLEX CIRCUIT league.
+  - title: The League at a Glance
+    description: Provides an overview of the league's structure, schedule, and key details.
+  - title: What It Means to Be a Captain
+    description: Explains the roles, responsibilities, and rewards of being a team captain.
+  - title: Partnering with Us
+    description: Details opportunities and benefits for pickleball clubs partnering with the league.
+  - title: Meet the Founders
+    description: Introduces the four founders of the 3FLEX CIRCUIT, including their bios and roles.
+
+marketing_materials: "3flex_marketing_docs/3flex_marketing_docs.md"
+
+accessibility:
+  color_blindness: true
+
+design_inspiration:
+  - url: "https://www.themissionhillsclub.com/"
+    notes: "Inspiration for layout and color scheme."
+
+additional_features:
+  - description: "Include a link to the player/coach handbook (PDF)."
+  - description: "Provide a mailto link for contacting via email."
+  - description: "Include a clearly visible 'Player Portal' or 'Log In' button to support future account-based site access."
+
+verification:
+  - step: "Confirm all specified design elements are present and correctly implemented."
+  - step: "Ensure content sections accurately reflect the provided marketing materials."
+  - step: "Validate accessibility features, particularly color schemes accommodating red/green color blindness."
+  - step: "Test additional features like PDF and email links for proper functionality."

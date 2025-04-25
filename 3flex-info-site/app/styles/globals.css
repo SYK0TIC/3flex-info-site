@@ -1,0 +1,21 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* These classes are needed for the JS-based animations */
+.visible, .active {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.animate-element {
+  opacity: 0;
+  transform: translateY(20px);
+}

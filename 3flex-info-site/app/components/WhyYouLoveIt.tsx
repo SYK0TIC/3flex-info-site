@@ -42,44 +42,44 @@ interface Benefit {
 const benefits: Benefit[] = [
   {
     title: "Bring Your Own Team",
-    description: "Compete alongside your chosen teammates all season—no random pairings, just strategic, cohesive play.",
-    icon: MdGroups
-  },
-  {
-    title: "Fresh Competition Weekly",
-    description: "Match up against diverse teams from across your area at local clubs, ensuring unique challenges.",
-    icon: MdSportsBasketball
-  },
-  {
-    title: "High-Level Matches",
-    description: "Tailored specifically for committed amateurs and aspiring semi-pros craving consistently competitive play.",
-    icon: MdStar
-  },
-  {
-    title: "Climb the Rankings",
-    description: "Battle it out for seasonal rankings, exclusive tournament awards, and ultimate bragging rights.",
-    icon: MdEmojiEvents
-  },
-  {
-    title: "Better Than Ladder Leagues",
-    description: "Say goodbye to random partners and inconsistent matches; enjoy structured team play.",
-    icon: MdSportsScore
-  },
-  {
-    title: "Reliable, Organized Events",
-    description: "Enjoy weekly, professionally managed match-ups designed for seamless participation.",
-    icon: MdCalendarMonth
+    description: "Compete alongside your chosen teammates all season—no random pairings, just strategic, cohesive play.", // comparing, REWORD to assuage worries of people who don't like team formats, and to promise help for both captains and members of teams
+    icon: MdGroups // CHANGE TO 
   },
   {
     title: "Play on Your Schedule",
-    description: "Flexible participation lets you play regularly or step in whenever your team needs you most.",
-    icon: MdAccessTimeFilled
+    description: "Flexible participation lets you play regularly or just step in whenever your team needs you most.", // promising, REWORD slightly to focus on our slick availability/scheduling system?
+    icon: MdAccessTimeFilled // CHANGE TO ROBO ARM EMOJI? 
   },
   {
     title: "Affordable, Pay-As-You-Play",
-    description: "Forget upfront costs—pay only for matches you actually play, keeping competition budget-friendly.",
+    description: "Forget upfront costs—pay only for matches you actually play, keeping competition budget-friendly.", // promising, pairs well with #2
     icon: MdAttachMoney
-  }
+  },
+  {
+    title: "Fresh Competition Weekly",
+    description: "Match up against diverse teams from across your area at local clubs, ensuring unique challenges.", // promising, comparing (to other leagues)
+    icon: MdSportsBasketball // MUST CHANGE TO SOMETHING ELSE, NOT BASKETBALL
+  },
+  {
+    title: "High-Level Matches", // High-QUALITY Matches?
+    description: "Tailored specifically for committed amateurs and aspiring semi-pros craving consistently competitive play.", // promising, maybe focus on how it's based on proven models?
+    icon: MdStar // CHANGE TO 5 STARS? TO SWEAT DROPLET? TO SMILING FACE? 
+  },
+  {
+    title: "Better Than Ladder Leagues",
+    description: "Say goodbye to random partners and inconsistent matches; enjoy structured team play.", // comparing, maybe refocus on something that overlaps less with #4, #5 to sharpen the promise? 
+    icon: MdSportsScore // CHANGE
+  },
+  {
+    title: "Reliable, Organized Events",
+    description: "Enjoy weekly, professionally managed match-ups designed for seamless participation.", // promising, maybe SWITCH to focus on getting to play at all sorts of different clubs??
+    icon: MdCalendarMonth // CHANGE TO CALENDAR WITH DATE CIRCLED
+  },
+  {
+    title: "Climb the Rankings",
+    description: "Battle it out for seasonal rankings, exclusive tournament awards, and ultimate bragging rights.",  // promising, REWORD to sound less corny (TITLE ITSELF IS MID)
+    icon: MdEmojiEvents // CHANGE TO TROPHY? TO WINNER'S STAND? TO 1st PLACE MEDAL?
+  },
 ];
 
 const WhyYouLoveIt = () => {
